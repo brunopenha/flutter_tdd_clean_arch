@@ -1,43 +1,49 @@
 <mxfile>
-    <diagram id="ftuIndyVdLBgUpfTKCOD" name="Page-1">
+    <diagram id="ftuIndyVdLBgUpfTKCOD" name="Acesso">
         <mxGraphModel dx="738" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;fillColor=#FF9999;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="360" width="410" height="150" as="geometry"/>
+                    <mxGeometry x="180" y="430" width="410" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Verdana;fontSize=15;strokeColor=#660000;" edge="1" parent="1" source="2" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Autenticação" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;dashed=1;" vertex="1" parent="1">
-                    <mxGeometry x="210" y="405" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="210" y="475" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Domínio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontFamily=Verdana;" vertex="1" parent="1">
-                    <mxGeometry x="510" y="340" width="80" height="20" as="geometry"/>
+                    <mxGeometry x="510" y="410" width="80" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Conta" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="405" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="410" y="475" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;fillColor=#FFE6CC;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="150" width="410" height="150" as="geometry"/>
+                    <mxGeometry x="180" y="150" width="410" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#663300;fontFamily=Verdana;fontSize=15;" edge="1" parent="1" source="10" target="2">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="340" y="328"/>
-                            <mxPoint x="285" y="328"/>
+                            <mxPoint x="340" y="398"/>
+                            <mxPoint x="285" y="398"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#663300;fontFamily=Verdana;fontSize=15;" edge="1" parent="1" source="10" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Autenticação Remota" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;dashed=1;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="195" width="150" height="55" as="geometry"/>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#663300;fontFamily=Verdana;fontSize=15;" edge="1" parent="1" source="10" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Autenticação Remota" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="267.5" width="180" height="55" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Dados / Aplicação / Lógica de Negócio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontFamily=Verdana;" vertex="1" parent="1">
                     <mxGeometry x="290" y="130" width="300" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="ClienteHttp" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="180" width="150" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
